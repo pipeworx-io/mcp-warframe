@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/warframe",
   "title": "Warframe",
   "description": "Warframe MCP (WarframeStat API).",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://pipeworx.io/packs/warframe",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-warframe",

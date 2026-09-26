@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-warframe",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Warframe MCP (WarframeStat API).",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-d9ab69b0321774e91ca4f8a058fbb62126e8986532d812d0aca9dd9879ac714d",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-fd386bfa5ddb5e8e92b8d5db5348018398b496c4fb169476ab70bc570608bbb8",
+    "sourceCommit": "2cb50b368da3267446f2b6f6a3ddbd3d0eed3d73"
   }
 }
