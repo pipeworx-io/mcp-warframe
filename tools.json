@@ -1,0 +1,57 @@
+[
+  {
+    "name": "world_state",
+    "description": "One-call summary of Warframe's live worldstate: the Plains of Eidolon (Cetus) day/night cycle, Cambion Drift (fass/vome), Orb Vallis (warm/cold), the current daily Sortie, Baro Ki'Teer's void-trader status, and the active Void Fissure count. Keyless, live.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "platform": {
+          "type": "string",
+          "description": "Platform: one of pc, ps4, xb1, swi. Default \"pc\"."
+        }
+      }
+    }
+  },
+  {
+    "name": "get_fissures",
+    "description": "List the active Void Fissures (Lith / Meso / Neo / Axi relic missions, including Steel Path and Void Storm variants) with node, mission type, enemy and time remaining. Keyless, live.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "platform": {
+          "type": "string",
+          "description": "Platform: one of pc, ps4, xb1, swi. Default \"pc\"."
+        }
+      }
+    }
+  },
+  {
+    "name": "get_invasions",
+    "description": "List the active (non-completed) faction Invasions — node, description, attacking/defending factions and completion percentage. Keyless, live.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "platform": {
+          "type": "string",
+          "description": "Platform: one of pc, ps4, xb1, swi. Default \"pc\"."
+        }
+      }
+    }
+  },
+  {
+    "name": "search_items",
+    "description": "Fuzzy-search Warframe item data — warframes, weapons, mods, and more — by name. Returns name, type, category and description. Keyless.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Item name to search for, e.g. \"Excalibur\", \"Soma Prime\", \"Serration\"."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  }
+]
