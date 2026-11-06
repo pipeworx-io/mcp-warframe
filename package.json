@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-warframe",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Warframe MCP (WarframeStat API).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "warframe",
     "gatewaySlug": "warframe",
-    "sourceHash": "v1-ae2bbf59c19dfe12718d0065dc2598a7954f8f1d76eb724b22cc2f03d1692eb7",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-fa8b30d8d1971a49c3383b6407dc7df7bed373ebb0aeb48fa13e04db58e5086b",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }
